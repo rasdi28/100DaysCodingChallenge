@@ -37,8 +37,9 @@ komputer 2
 komputer 3
 ```
 
+> Have fun to code
 
-
+___
 
 SUMBER
 
