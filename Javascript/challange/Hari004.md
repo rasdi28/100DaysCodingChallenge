@@ -1,0 +1,7 @@
+# BUATLAH 4 SCRIPT PENULISAN KODE PADA JAVASCRIPT
+
+
+OUTPUTNYA
+```
+Lets start Learn Javascript
+```
