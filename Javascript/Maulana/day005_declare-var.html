@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variable and Operator | 100DaysCodingChallenge</title>
+</head>
+<body>
+	<h1>Analyze Several Ways to Declare Variable in JavaScript</h1>
+	<script type="text/javascript">
+		var foo = 'hello1';
+		var foo = 'hello2';
+		document.write(`${foo}</br>`)
+		// Output: hello2
+		// Deklarasi variabel 'foo' kedua meng-overwrite foo yang pertama
+
+		x = 10;
+		var x;
+		document.write(`${x}</br>`);
+		// Output: 10
+		// Variabel 'x' terdeklarasi secara otomatis karena diikuti operator penugasan
+
+		var y = 2
+		if (true) {
+			var y = 3
+		}
+
+		document.write(`${y}</br>`)
+		// Output: 3
+		// Statement di dalam if dilakukan apabila kondisi terpenuhi, karena kondisinya 'true' maka variabel 'y' dideklarasikan (lagi)
+
+	</script>
+</body>
+</html>
