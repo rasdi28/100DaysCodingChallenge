@@ -26,3 +26,4 @@ h1.style.fontSize = '50px';
 
 const p1 = document.getElementsByClassName('p1')[0];
 p1.innerHTML = 'ini dirubah menjadi Javascript';
+
