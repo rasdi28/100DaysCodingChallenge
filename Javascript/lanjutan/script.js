@@ -48,24 +48,24 @@
 // 3. constructor function
 
 
-function Mahasiswa(nama, energy) {
+// function Mahasiswa(nama, energy) {
     
-    this.nama = nama;
-    this.energy = energy;
+//     this.nama = nama;
+//     this.energy = energy;
 
-    this.makan = function (porsi) {
-        this.energy += porsi;
-        console.log (`Hallo ${this.nama}, selamat makan`);
-    }
+//     this.makan = function (porsi) {
+//         this.energy += porsi;
+//         console.log (`Hallo ${this.nama}, selamat makan`);
+//     }
 
-    this.main = function(jam){
-        this.energy -+ jam;
-        console.log(`hallo , ${this.nama}, selamat bermain`);
-    }
+//     this.main = function(jam){
+//         this.energy -+ jam;
+//         console.log(`hallo , ${this.nama}, selamat bermain`);
+//     }
    
-}
+// }
 
-let rasdi = new Mahasiswa('rasdi',10);
+// let rasdi = new Mahasiswa('rasdi',10);
 
 
 // 4. objecct.create()
