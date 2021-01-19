@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2> Learn About Class in Javascript</h2>
+
+
+
+
+  <script>
+    class Rentangle{
+      constructor(_width, _height, _color) {
+        console.log ("hello this is class");
+        this.width = _width;
+        this.height = _height;
+        this.color = _color;
+      }
+
+      getArea(){
+        return this.width * this.height;
+      }
+
+      printDescription(){
+        console.log (`i am a ranctangle of ${this.width} x ${this.height}. my color ${this.color}`);
+      }
+    }
+
+    let Ranctangle1 = new Rentangle(13,4,"blue");
+    let Hello = new Rentangle(12,4);
+
+    Ranctangle1.printDescription();
+
+    </script>
+
+</body>
+</html>
