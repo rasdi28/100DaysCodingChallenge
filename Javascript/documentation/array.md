@@ -53,5 +53,4 @@ for (i = 0; i<nama.lenght; i++){
   document.write(nama[i]+ "<br/>");
 }
 
-
 ```
