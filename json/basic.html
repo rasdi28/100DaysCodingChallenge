@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="kedua"></p>
+    <p id="ketiga"></p>
+
+    <script>
+        var myJson = '{"name":"rasdi","age":20,"address":"sarongge"}';
+        var myObjek = JSON.parse(myJson);
+        document.getElementById("demo").innerHTML = myObjek.age;
+        document.getElementById("demo").innerHTML = myObjek.name;
+        
+        //id kedua
+        var kelas, x;
+        kelas = { name:"kelas 1", siswa:25, wali_kelas :"rasdi"};
+        x = kelas.siswa;
+        document.getElementById("kedua").innerHTML = x;
+
+        //ke3
+        var buah, qty;
+        buah = {
+            name:"apel",
+            kasiat: "vitamin c",
+            berat : "120 gr"
+        };
+        qty = buah.kasiat;
+        document.getElementById("ketiga").innerHTML = qty;
+    
+    </script>
+</body>
+</html>
